@@ -3,24 +3,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-
-
-        System.out.println(shouldWakeUp(true, 1));
-        System.out.println(shouldWakeUp(false, 5));
-
-
-        System.out.println(hasTeen(13, 45, 9));
-        System.out.println(hasTeen(20, 22, 25));
-
-
-        System.out.println(isCatPlaying(true, 40));
-        System.out.println(isCatPlaying(false, 36));
-
-
-        System.out.println(area(5.0, 4.0));
-        System.out.println(area(-3.0, 5.0));
-        System.out.println(area(3.0));
-        System.out.println(area(-2.0));
     }
 
     public static boolean shouldWakeUp(boolean isBarking, int clock) {
